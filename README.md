@@ -1,2 +1,2 @@
 # Portfolio
-A collection of everything I have made and continue to work on!
+A collection of some of the things I have made and continue to work on!
