@@ -1,0 +1,96 @@
+/* Existing styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    /* Ensures background image covers entire page */
+    background-attachment: fixed;
+    /* Makes sure the background image stays fixed */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    /* Use semi-transparent background to see the image */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adds slight white background to enhance readability */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+main ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+main ul li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Add background images for each specific page
+body.home {
+    background-image: url('/img/background.jpg');
+}
+
+body.about {
+    background-image: url('images/about-background.jpg');
+}
+
+body.projects {
+    background-image: url('images/projects-background.jpg');
+} */
